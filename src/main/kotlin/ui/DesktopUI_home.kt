@@ -9,10 +9,12 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun DesktopUI_home() {
-    Text(
-        text = "Hello UXCore USER!",
-        fontSize = 24.sp,
-        color = MaterialTheme.colorScheme.primary,
-        modifier = Modifier.align(Alignment.Center)
-    )
+    Box(modifier = Modifier.fillMaxSize()) {
+        Text(
+            text = "Hello UXCore USER!",
+            fontSize = 24.sp,
+            color = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.align(Alignment.Center)
+        )
+    }
 }
