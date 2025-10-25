@@ -17,7 +17,7 @@ fun DesktopUI_iniciar(onClick: () -> Unit) {
         modifier = Modifier
             .size(60.dp, 40.dp)
             .align(Alignment.BottomStart)
-            .background(Color(0x220000FF)) // transparente
+            .background(Color(0x220000FF)) // transparente azul
             .clickable { onClick() },
         contentAlignment = Alignment.Center
     ) {
